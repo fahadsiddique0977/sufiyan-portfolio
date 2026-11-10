@@ -171,7 +171,7 @@ body.theme-sketch{background:var(--bg)}
 .sketch-role{margin:0;color:#332b24;font:700 15px Georgia,serif}
 .sketch-intro{max-width:530px;margin-top:18px;color:#5d4e40;font:16px/1.8 Georgia,serif}
 .sketch-portrait{position:relative;width:min(100%,390px);justify-self:center;margin:0;padding:13px 13px 38px;background:#fffdf6;box-shadow:3px 8px 16px #47362930;transform:rotate(1.5deg)}
-.sketch-portrait img{display:block;width:100%;height:430px;max-width:none;object-fit:cover;object-position:center 19%;filter:sepia(.08) contrast(1.04)}
+.sketch-portrait img{display:block;width:100%;height:430px;max-width:none;object-fit:contain;object-position:center;background:#f8f3e7;filter:none}
 .sketch-portrait figcaption{padding:12px 4px 0;border:0;text-align:center;color:#74634f;font:12px "Permanent Marker","Segoe Print",cursive;letter-spacing:0}
 .sketch-tape{position:absolute;left:36%;top:-12px;width:90px;height:25px;background:#c8aa7159;transform:rotate(-5deg)}
 .sketch-quote{position:relative;margin:14px 0 0;color:#33281f;text-align:right;font:16px/1.25 "Permanent Marker","Segoe Print",cursive;transform:rotate(-2deg)}
